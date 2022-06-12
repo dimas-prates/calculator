@@ -15,11 +15,12 @@
     background: var(--clr-bkg-calc);
     border-radius: 0.4rem;
     padding: 1rem;
-    border: 0.15rem solid var(--clr-bdr-main);
+    border: var(--size-border) solid var(--clr-bdr-main);
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 30vw;
+    width: 100%;
+    max-width: 300px;
 }
 
 .calculator__table {
@@ -59,13 +60,5 @@
     padding-inline-start: 0.5rem;
     font-size: 200%;
     overflow: hidden;
-}
-
-@media screen and (max-width: 760px) {
-    .content__calculator {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 70vw;
-    }
+    border: var(--size-border) solid var(--clr-bdr-main);
 }
