@@ -11,6 +11,7 @@
     --clr-txt-calc: black;
     --clr-bdr-main: black;
     --clr-hvr-main: white;
+    --size-border: 0.15rem;
 }
 
 /* Global reset */
