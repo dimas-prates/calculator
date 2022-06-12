@@ -11,7 +11,6 @@ const IndexFunctions = {
     try {
       text = text.replace("x", "*").replace("÷", "/").trim();
       text = eval(text);
-      // text = text.toFixed(4);
       this.checkQuantityChar(text);
     } catch (error) {
       if (error == "Too big") {
