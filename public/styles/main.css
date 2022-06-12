@@ -3,13 +3,19 @@
 
 /* Custom variables */
 :root {
-    --clr-bkg-main: linear-gradient(45deg, black,crimson);
+    --clr-bkg-main: linear-gradient(45deg, black, springgreen);
     --clr-txt-main: white;
-    --clr-bkg-calc: black;
+    --clr-hvr-main: white;
+    --clr-bdr-main: black;
+    --clr-bkg-calc: rgba(0, 0, 0, 0.8);
+    --clr-bkg-btn: rgba(31, 31, 31, 1);
+    /* --clr-bdr-btn: white; */
 }
 
 /* Global reset */
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
