@@ -58,6 +58,7 @@
     height: 3rem;
     color: var(--clr-txt-calc);
     padding-inline-start: 0.5rem;
+    padding-bottom: 3.2rem;
     font-size: 200%;
     overflow: hidden;
     border: var(--size-border) solid var(--clr-bdr-main);
