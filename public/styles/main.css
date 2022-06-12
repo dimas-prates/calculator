@@ -3,8 +3,8 @@
 
 /* Custom variables */
 :root {
-    --clr-bkg-main: white;
-    --clr-txt-main: black;
+    --clr-bkg-main: linear-gradient(45deg, black,crimson);
+    --clr-txt-main: white;
 }
 
 /* Global reset */
