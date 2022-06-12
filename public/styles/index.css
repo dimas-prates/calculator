@@ -50,6 +50,17 @@
     font-size: x-large;
 }
 
+.calculator__result {
+    background: var(--clr-bkg-field);
+    display: inline-block;
+    width: calc(100% - 0.5rem);
+    height: 3rem;
+    color: var(--clr-txt-calc);
+    padding-inline-start: 0.5rem;
+    font-size: 200%;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 760px) {
     .content__calculator {
         justify-content: center;
